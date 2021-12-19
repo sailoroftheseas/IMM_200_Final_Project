@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="styling.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    
+    <ul class="topnav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="relax.html">Relax</a></li>
+        <li><a href="learn.html">Learn</a></li>
+        <li><a href="about.html">About</a></li>
+        <li class="left"><a class="active" href="contact.html">Contact</a></li>
+    </ul>
+
+    
+      <!-- <ul class="topnav">
+        <li><a class="active" href="#home">Home</a></li>
+        <li><a href="#news">Relax</a></li>
+        <li><a href="#contact">Learn</a></li>
+        <li><a href="#contact">About</a></li>
+        <li class="left"><a href="#about">Contact</a></li>
+      </ul> -->
+
+    <div style="padding:2% 0;">
+   
+        
+            <div class="parent">
+                <h1>Contact Me</h1>
+            </div>
+        
+            
+            <div class="introPara">
+            
+            <p>
+            
+                If you have any comments, questions, or concerns please feel free to fill out the form below to contact me at any time
+            
+            </p>
+            
+            </div>
+
+            <div class="formclass1">
+
+            <form method="Get" action="mailto:mhluber@mac.com" enctype="text/plain">
+                <div>Name:</div>
+                <input type="text" name="subject" placeholder="Enter your full name here..." />
+                
+                <div>Email:</div>
+                <input type="text" name="cc" placeholder="Enter your e-mail here..." />
+
+                <div>Message:</div>
+                <textarea name="body" rows="5" cols="30" placeholder="Type your message here..."></textarea>
+
+                <br/>
+                <input  type="submit" value="Send" />
+                <input type="reset" value="Reset">
+            </form>
+
+        </div>
+
+            <<div id="wrapper">
+
+            <footer>
+            
+            Mark Luber
+            
+            <p><i><small><a style="color:greenyellow" href="mailto:mluber@mail.dccc.edu">Email Me</a></small></i></p>
+            <script>
+                
+                var myDate = new Date() 
+                var month = myDate.getMonth() + 1 
+                var day = myDate.getDate() 
+                var year = myDate.getFullYear() 
+                document.write(month + "/" + day + "/" + year)
+                
+                </script>
+            
+            </footer>
+            
+            </div>
+            
+    </div>
+
+</body>
+</html>
+
+
+
